@@ -1,0 +1,293 @@
+{
+  "pendingChannelId": "1505526261521453108",
+  "serversChannelId": "1509590220830412902",
+  "avtChannelId": "1509594103053029397",
+  "otherChannelId": "1512143746521632938",
+  "managerIds": [
+    "1509636629273510120",
+    "1511741248891781323"
+  ],
+  "webhooks": {
+    "avatar": "https://discord.com/api/webhooks/1523992362647556226/jKwtU8CTvIqLXdyKwS83oNyPtRo1PcMh3cEh3tOemdY6Ix-bMkAcK3n8w3a2gNDEckoL",
+    "other": "https://discord.com/api/webhooks/1524001163601641585/fUYS0NTXeEg8AAlrL3ASk6Yg_7EQxOXslWNxvhRXAuVkuSDxqxw29ouDGOdv7qfA7I2U",
+    "servers": "https://discord.com/api/webhooks/1524003705568104595/2z5CAvh1spHbkazZVrhuP96WUQx1v2IZwX47gUAEeHfawLErGIqI-ZwYJyv1RTp-drR_"
+  },
+  "ui": {
+    "banner": {
+      "url": "https://i.ibb.co/7xxT9bR1/Rosa-Server-Control.png"
+    },
+    "activity": "Rosa Server Control",
+    "commands": {
+      "panel": {
+        "noPermission": "❌ هذا الأمر متاح فقط لصاحب السيرفر.",
+        "noSendPermission": "❌ ليس لدي صلاحية إرسال الرسائل في هذه القناة.",
+        "sent": "✅ تم إرسال لوحة التحكم"
+      },
+      "ping": {
+        "pinging": "Pinging...",
+        "pong": "Pong! 🏓"
+      }
+    },
+    "menus": {
+      "download": {
+        "placeholder": "تحميل",
+        "options": {
+          "youtube": {
+            "label": "YouTube",
+            "description": "تحميل فيديوهات يوتيوب",
+            "emoji": "<:Youtube:1523664639613997148>"
+          },
+          "tiktok": {
+            "label": "TikTok",
+            "description": "تحميل فيديوهات تيك توك",
+            "emoji": "<:Tiktok:1523664632227692604>"
+          },
+          "instagram": {
+            "label": "Instagram",
+            "description": "تحميل فيديوهات انستغرام",
+            "emoji": "<:Instagram:1523664634614255617>"
+          },
+          "twitter": {
+            "label": "Twitter / X",
+            "description": "تحميل فيديوهات تويتر",
+            "emoji": "<:XTwitter:1523664636107427952>"
+          },
+          "facebook": {
+            "label": "Facebook",
+            "description": "تحميل فيديوهات فيسبوك",
+            "emoji": "<:Facebook:1523664637827092541>"
+          }
+        }
+      },
+      "publish": {
+        "placeholder": "انشر سيرفرك",
+        "options": {
+          "servers": {
+            "label": "Server",
+            "description": "نشر سيرفرك السوالف الكلاسيك",
+            "emoji": "<:ServersAvtOther:1523664887463809135>"
+          },
+          "avatar": {
+            "label": "Avt",
+            "description": "نشر سيرفرك الخاص بالافاتارات",
+            "emoji": "<:ServersAvtOther:1523664887463809135>"
+          },
+          "other": {
+            "label": "اخرى",
+            "description": "نشر سيرفرات السوالف وغيرها (لا يشمل السيرفرات المخالفة لديسكورد)",
+            "emoji": "<:ServersAvtOther:1523664887463809135>"
+          }
+        }
+      },
+      "scale": {
+        "placeholder": "الشارات",
+        "options": {
+          "booster": {
+            "label": "Boost",
+            "description": "احسب تطور شارة البوست الخاصة بك",
+            "emoji": "<:Boost:1523664993298419863>"
+          },
+          "nitro": {
+            "label": "Nitro",
+            "description": "احسب تطور شارة النيترو الخاصة بك",
+            "emoji": "<:Nitro:1523664991914561626>"
+          }
+        }
+      },
+      "image": {
+        "placeholder": "تعديل الصور",
+        "options": {
+          "avatar_banner": {
+            "label": "View Avatar & Banner",
+            "description": "اظهار افاتار او بانر اى عضو",
+            "emoji": "<:AvatarBanner:1523665136487895101>"
+          },
+          "colorize": {
+            "label": "Colorize",
+            "description": "تلوين الصورة ذو فلتر الابيض والاسود",
+            "emoji": "<:Colorize:1523665133744820395>"
+          },
+          "bw": {
+            "label": "Black & White",
+            "description": "تحويل الصورة للأبيض والأسود",
+            "emoji": "<:BlackWhite:1523666464169529424>"
+          },
+          "change_color": {
+            "label": "Change Color",
+            "description": "تغيير لون الصورة",
+            "emoji": "<:ChangeColor:1523665137846976512>"
+          },
+          "remove_bg": {
+            "label": "Remove Background",
+            "description": "إزالة خلفية الصورة",
+            "emoji": "<:RemoveBackground:1523665135179141190>"
+          }
+        }
+      }
+    },
+    "modals": {
+      "download": {
+        "title": "تحميل - أدخل الرابط",
+        "label": "رابط الفيديو",
+        "placeholders": {
+          "youtube": "https://www.youtube.com/watch?v=...",
+          "tiktok": "https://www.tiktok.com/@user/video/...",
+          "instagram": "https://www.instagram.com/reel/...",
+          "twitter": "https://x.com/user/status/...",
+          "facebook": "https://www.facebook.com/watch/...",
+          "fallback": "أدخل الرابط هنا"
+        }
+      },
+      "publish": {
+        "title": "📢 نشر ",
+        "inviteLabel": "رابط السيرفر",
+        "invitePlaceholder": "https://discord.gg/...",
+        "bannerLabel": "رابط البانر",
+        "bannerPlaceholder": "https://..."
+      },
+      "profile": {
+        "nitroTitle": "مقياس النيترو",
+        "boostTitle": "مقياس البوستات",
+        "dateLabel": "تاريخ البداية (YYYY-MM-DD)",
+        "datePlaceholder": "مثال: 2024-06-01 (اتركه فارغاً للافتراضي)"
+      },
+      "image": {
+        "avatarBanner": {
+          "title": "👤 عرض افاتار/بانر",
+          "userLabel": "Discord User ID",
+          "userPlaceholder": "أدخل آيدي العضو"
+        },
+        "colorize": {
+          "title": "🎨 Colorize",
+          "urlLabel": "رابط الصورة",
+          "urlPlaceholder": "رابط صورة مباشر"
+        },
+        "bw": {
+          "title": "⚫ أبيض وأسود",
+          "urlLabel": "رابط الصورة",
+          "urlPlaceholder": "رابط صورة مباشر"
+        },
+        "removeBg": {
+          "title": "🔲 إزالة الخلفية",
+          "urlLabel": "رابط الصورة",
+          "urlPlaceholder": "رابط صورة مباشر"
+        },
+        "changeColor": {
+          "title": "🌈 تغيير اللون",
+          "urlLabel": "رابط الصورة",
+          "urlPlaceholder": "رابط صورة مباشر",
+          "hexLabel": "اللون (Hex)",
+          "hexPlaceholder": "#ff0000"
+        }
+      }
+    },
+    "messages": {
+      "errors": {
+        "userNotFound": "❌ لم يتم العثور على العضو.",
+        "imageFetchFailed": "❌ فشل تحميل الصور.",
+        "imageProcessingFailed": "❌ فشل معالجة الصورة.",
+        "invalidHex": "❌ لون غير صالح. استخدم Hex مثل #ff0000",
+        "sessionExpired": "❌ انتهت الجلسة. أعد المحاولة من البداية.",
+        "invalidUrl": "❌ الرابط غير صالح. أدخل رابط فيديو صحيح.",
+        "fileTooLarge": "❌ الملف كبير جداً (أكثر من 25MB)",
+        "noPermission": "❌ ليس لديك صلاحية.",
+        "commandError": "There was an error executing this command.",
+        "menuError": "There was an error handling this menu."
+      },
+      "download": {
+        "fetching": "⏳ جاري تحميل الفيديو...",
+        "watchLink": "🎥 **رابط المشاهدة:** ",
+        "directLink": "🎥 **رابط التحميل:** ",
+        "failed": "❌ تعذر تحميل الفيديو من ",
+        "wrongPlatform": "❌ هذا الرابط ليس من "
+      },
+      "publish": {
+        "submitted": "✅ تم إرسال طلبك للمراجعة.",
+        "approved": "✅ تمت الموافقة والنشر.",
+        "approvedFail": "❌ تمت الموافقة ولكن فشل النشر. تأكد من صلاحيات البوت.",
+        "rejected": "❌ تم الرفض.",
+        "deleted": "🗑️ تم حذف السيرفر.",
+        "updated": "✅ تم تحديث السيرفر.",
+        "alertSent": "✅ تم إرسال التنبيه للمستخدم.",
+        "notFound": "❌ السيرفر غير موجود.",
+        "noLongerExists": "❌ هذا الطلب لم يعد موجوداً.",
+        "noPendingChannel": "❌ قناة المراجعة غير محددة.",
+        "noAccessChannel": "❌ لا يمكن الوصول لقناة المراجعة.",
+        "noChannelConfig": "❌ لم يتم تحديد قناة النشر لهذا القسم.",
+        "cannotDm": "❌ تعذر إرسال الرسالة للمستخدم."
+      }
+    },
+    "embeds": {
+      "footer": "Rosa Server Control",
+      "publish": {
+        "approveTitle": "✅ تمت الموافقة على طلب نشر سيرفرك",
+        "approveDesc": "تم نشر سيرفرك في قسم ",
+        "rejectTitle": "❌ تم رفض طلب نشر سيرفرك",
+        "rejectDesc": "للأسف، لم تتم الموافقة على طلبك.",
+        "alertTitle": "🔔 تنبيه بخصوص سيرفرك",
+        "alertDesc": "مرحباً، تم إرسال هذا التنبيه لإبلاغك بأن أحد روابط سيرفرك قد تكون منتهية الصلاحية. يرجى التحقق من الرابط والبانر وإذا لزم الأمر تواصل مع الإدارة لتحديثها.",
+        "editTitle": "تعديل السيرفر"
+      }
+    },
+    "buttons": {
+      "joinServer": "انضم للسيرفر",
+      "manage": "إدارة",
+      "approve": {
+        "label": "موافقة",
+        "emoji": "✅"
+      },
+      "reject": {
+        "label": "رفض",
+        "emoji": "❌"
+      },
+      "edit": {
+        "label": "تعديل",
+        "emoji": "✏️"
+      },
+      "alert": {
+        "label": "تنبيه",
+        "emoji": "🔔"
+      },
+      "delete": {
+        "label": "حذف",
+        "emoji": "🗑️"
+      }
+    },
+    "platforms": {
+      "youtube": {
+        "name": "YouTube",
+        "emoji": "▶️"
+      },
+      "tiktok": {
+        "name": "TikTok",
+        "emoji": "🎵"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "emoji": "📸"
+      },
+      "twitter": {
+        "name": "Twitter/X",
+        "emoji": "🐦"
+      },
+      "facebook": {
+        "name": "Facebook",
+        "emoji": "📘"
+      }
+    },
+    "publishSections": {
+      "servers": {
+        "label": "🌐 سيرفرات",
+        "match": "servers"
+      },
+      "avatar": {
+        "label": "🖼️ افاتار",
+        "match": "avatar"
+      },
+      "other": {
+        "label": "📌 اخرى",
+        "match": "other"
+      }
+    }
+  }
+}
