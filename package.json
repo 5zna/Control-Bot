@@ -1,0 +1,23 @@
+{
+  "name": "rosa-server-control",
+  "version": "1.0.0",
+  "description": "Discord bot for Rosa Server Control",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "canvas": "^3.2.3",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.4.7",
+    "i": "^0.3.7",
+    "mongoose": "^8.0.0",
+    "npm": "^11.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
